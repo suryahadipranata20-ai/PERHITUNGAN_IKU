@@ -4,10 +4,12 @@ st.title("Menentukan Indeks Kualitas Udara")
 st.header("Indeks Kualitas Udara (IKU)")
 st.write("merupakan ukuran komposit atau angka tunggal yang menggambarkan tingkat pencemaran atau status mutu udara di suatu lokasi pada waktu tertentu.Angka ini dihitung berdasarkan konsentrasi berbagai polutan utama seperti partikel debu, Sulfur Dioksida, Karbon Monoksida, Nitrogen Dioksida , dan Ozon.")
 
-sox=st.number_input("masukkan kadar sox: ")
 bakumutu_sox=st.number(150)
-nox=st.number_input("masukkan kadar nox: ")
 bakumutu_nox=st.number(200)
+
+sox=st.number_input("masukkan kadar sox: ")
+nox=st.number_input("masukkan kadar nox: ")
+
 
 if st.button("Hitung"):
     hasil_sox = sox / bakumutu_sox
