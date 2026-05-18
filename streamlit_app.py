@@ -151,5 +151,4 @@ def main():
     elif choice == "Perhitungan IKU":
         show_calculator()
 
-if __name
 
