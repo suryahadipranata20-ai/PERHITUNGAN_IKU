@@ -113,8 +113,8 @@ def show_calculator():
                     return
                 
                 # Baku Mutu
-                Baku_NO2 = 40.00
-                Baku_SO2 = 20.00
+                Baku_NO2 = 200.00
+                Baku_SO2 = 150.00
                 
                 # --- Perhitungan ---
                 
