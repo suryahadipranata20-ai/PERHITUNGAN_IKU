@@ -4,7 +4,7 @@ import pandas as pd
 # ---  Halaman Utama ---
 st.set_page_config(
     page_title="Perhitungan IKU",
-    page_icon="🌫️",
+    page_icon="🌳🌫️🌳",
     layout="wide"
 )
 
@@ -21,7 +21,7 @@ def show_home():
     
     st.subheader("Disusun oleh:")
     
-    # Daftar anggota dengan styling
+    # Daftar anggota 
     members = ["Ariq Dewantoro", "Endhyeto Nugraha", "Kahlil Ibrahim", "Surya Hadi Pranata", "TB. Affan"]
     for i, member in enumerate(members, 1):
         st.write(f"{i}. {member}")
