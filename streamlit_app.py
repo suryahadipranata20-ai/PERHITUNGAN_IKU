@@ -4,7 +4,7 @@ import pandas as pd
 # ---  Halaman Utama ---
 st.set_page_config(
     page_title="Perhitungan IKU",
-    page_icon="🌳🌫️🌳",
+    page_icon="🌫️",
     layout="wide"
 )
 
@@ -46,7 +46,7 @@ def show_intro():
     """)
     
     st.markdown("---")
-    st.markdown("### 📋 Baku Mutu Referensi EU (mikrogram/m³)")
+    st.markdown("### 📋 Baku Mutu Referensi EU (µg/m³)")
     
     col1, col2 = st.columns(2)
     with col1:
@@ -64,7 +64,7 @@ def show_intro():
     }
     df = pd.DataFrame(data)
     
-    # Menampilkan tabel dengan style
+    # Menampilkan tabel 
     st.table(df)
 
 # --- Fungsi Halaman Perhitungan (Option 2) ---
@@ -103,7 +103,7 @@ def show_calculator():
             st.error("⚠️ Error: Harap masukkan data untuk both NO2 and SO2!")
         else:
             try:
-                # Parse input data
+                # Input data
                 no2_list = [float(x.strip()) for x in no2_input.split(',') if x.strip()]
                 so2_list = [float(x.strip()) for x in so2_input.split(',') if x.strip()]
                 
