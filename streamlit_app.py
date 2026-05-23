@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 
-# --- Konfigurasi Halaman ---
+# ---  Halaman Utama ---
 st.set_page_config(
-    page_title="Kalkulator IKU",
+    page_title="Perhitungan IKU",
     page_icon="🌫️",
     layout="wide"
 )
@@ -22,7 +22,7 @@ def show_home():
     st.subheader("Disusun oleh:")
     
     # Daftar anggota dengan styling
-    members = ["Ariq", "Endhyeto", "Kahlil", "Surya", "Affan"]
+    members = ["Ariq Dewantoro", "Endhyeto Nugraha", "Kahlil Ibrahim", "Surya Hadi Pranata", "TB. Affan"]
     for i, member in enumerate(members, 1):
         st.write(f"{i}. {member}")
 
