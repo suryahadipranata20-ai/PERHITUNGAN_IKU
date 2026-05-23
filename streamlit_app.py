@@ -58,9 +58,9 @@ def show_intro():
     
     col1, col2 = st.columns(2)
     with col1:
-        st.info("**Parameter NO2**: 150,00")
+        st.info("**Parameter NO2**: 200,00")
     with col2:
-        st.info("**Parameter SO2**: 200,00")
+        st.info("**Parameter SO2**: 150,00")
     
     st.markdown("---")
     st.markdown("### 📊 Kategori Hasil IKU")
