@@ -58,9 +58,9 @@ def show_intro():
     
     col1, col2 = st.columns(2)
     with col1:
-        st.info("**Parameter NO2**: 40,00")
+        st.info("**Parameter NO2**: 200,00")
     with col2:
-        st.info("**Parameter SO2**: 20,00")
+        st.info("**Parameter SO2**: 150,00")
     
     st.markdown("---")
     st.markdown("### 📊 Kategori Hasil IKU")
@@ -121,8 +121,8 @@ def show_calculator():
                     return
                 
                 # Baku Mutu
-                Baku_NO2 = 200.00
-                Baku_SO2 = 150.00
+                Baku_NO2 = 40.00
+                Baku_SO2 = 20.00
                 
                 # --- Perhitungan ---
                 
