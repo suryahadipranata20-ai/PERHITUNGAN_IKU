@@ -12,7 +12,7 @@ st.set_page_config(
 def show_home():
     # Menampilkan gambar udara ambien
     st.image(
-        "https://image.unsplash.com/id/foto/fotografi-asap-yang-keluar-dari-menara-di-siang-hari-JbfhNrpQ_dw&auto=format&fit=crop",
+        "https://unsplash.com/id/foto/pelabuhan-industri-dengan-polusi-cerobong-asap-TUJud0AWAPI",
         use_container_width=True
     )
     
