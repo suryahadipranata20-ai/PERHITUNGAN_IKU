@@ -22,7 +22,7 @@ def show_home():
     st.subheader("Disusun oleh:")
     
     # Daftar anggota 
-    members = ["Ariq Dewantoro", "Endhyeto Nugraha", "Kahlil Ibrahim", "Surya Hadi Pranata", "TB. Affan"]
+    members = ["Ariq Dewantoro", "Endhyetto Nugraha Syahanaputra", "Kahlil Ibrahim Tirtana", "Surya Hadi Pranata", "TB.Affandhito Kurniawan N"]
     for i, member in enumerate(members, 1):
         st.write(f"{i}. {member}")
 
@@ -80,7 +80,7 @@ def show_calculator():
     st.markdown("<h1 style='text-align: center; color: #2E86AB;'>Menghitung IKU</h1>", unsafe_allow_html=True)
     
     st.markdown("""
-    silkan masukkan data kadar polutan NO2 dan SO2 dalam microgram per meter kubik (µg/m³).
+    silahkan masukkan data kadar polutan NO2 dan SO2 dalam microgram per meter kubik (µg/m³).
     Untuk memasukkan lebih dari 1 data, pisahkan dengan tanda koma (,).
     """)
     
@@ -171,7 +171,7 @@ def show_calculator():
                 
                 st.info(f"### Kategori Kualitas Udara: {kategori}")
                 
-                # Detail Calculation
+                # Detail Perhitungan 
                 with st.expander("Lihat Detail Perhitungan"):
                     st.write(f"**Input NO2**: {no2_list}")
                     st.write(f"**Input SO2**: {so2_list}")
@@ -191,7 +191,7 @@ def show_calculator():
 
 # --- Main App ---
 def main():
-    # Sidebar Navigation
+    # Sidebar Navigasi
     st.sidebar.title("📑 MENU")
     
     menu_options = {
@@ -202,7 +202,7 @@ def main():
     
     selection = st.sidebar.radio("Pilih Halaman:", list(menu_options.keys()))
     
-    # Route to selected page
+    # Pemilihan Halaman
     if menu_options[selection] == "home":
         show_home()
     elif menu_options[selection] == "intro":
