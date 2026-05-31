@@ -12,7 +12,7 @@ st.set_page_config(
 def show_home():
     # Menampilkan gambar udara ambien
     st.image(
-        "https://share.google/PdJ4tb39pUY6JDgnC",
+        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1000&auto=format&fit=crop",
         use_container_width=True
     )
     
