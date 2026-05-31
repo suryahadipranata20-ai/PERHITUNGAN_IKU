@@ -26,32 +26,6 @@ def show_home():
     for i, member in enumerate(members, 1):
         st.write(f"{i}. {member}")
         
- # Watermark sticky di bagian bawah layar
-    st.markdown(
-        """
-        <style>
-        .watermark-fixed {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background-color: #000;
-            color: white;
-            text-align: center;
-            padding: 8px 0;
-            font-weight: bold;
-            z-index: 100;
-        }
-        </style>
-        <div class="watermark-fixed">
-            © 2026 POLITEKNIK AKA BOGOR - D3 Pengolahan Limbah Industri - Kelompok 6 - 1F.
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-if __name__ == "__main__":
-    main=()
 
 # --- Fungsi Halaman Pengenalan (Option 1) ---
 def show_intro():
