@@ -51,7 +51,7 @@ def show_home():
     )
 
 if __name__ == "__main__":
-    main()
+    main=()
 
 # --- Fungsi Halaman Pengenalan (Option 1) ---
 def show_intro():
