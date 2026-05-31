@@ -26,7 +26,7 @@ def show_home():
     for i, member in enumerate(members, 1):
         st.write(f"{i}. {member}")
         
-    # Watermark sticky di bagian bawah layar
+ # Watermark sticky di bagian bawah layar
     st.markdown(
         """
         <style>
