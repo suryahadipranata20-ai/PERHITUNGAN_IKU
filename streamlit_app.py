@@ -12,7 +12,7 @@ st.set_page_config(
 def show_home():
     # Menampilkan gambar udara ambien
     st.image(
-        "https://unsplash.com/id/foto/pelabuhan-industri-dengan-polusi-cerobong-asap-TUJud0AWAPI",
+        "https://images.unsplash.com/photo-1569163139599-0f4517e36f51?q=80&w=1000&auto=format&fit=crop",
         use_container_width=True
     )
     
