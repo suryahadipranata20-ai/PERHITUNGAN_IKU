@@ -44,7 +44,7 @@ def show_home():
         }
         </style>
         <div class="watermark-fixed">
-            © 2025 POLITEKNIK AKA BOGOR - D3 Pengolahan Limbah Industri - Kelompok 5 - 1F.
+            © 2026 POLITEKNIK AKA BOGOR - D3 Pengolahan Limbah Industri - Kelompok 6 - 1F.
         </div>
         """,
         unsafe_allow_html=True
