@@ -12,8 +12,10 @@ st.set_page_config(
 def show_home():
     # Menampilkan gambar udara ambien
     st.image(
-        "polutan_industri.jpg",  # simpan gambar pabrik berasap dengan nama ini
-        caption="Ilustrasi polutan yang dikeluarkan oleh industri")
+        "https://images.unsplash.com/photo-1559450363-8d3141d1cb47?auto=format&fit=crop&w=1000",
+        caption="Ilustrasi: Asap Polutan dari Cerobong Pabrik",
+        width=800
+    )
     
     st.markdown("<h1 style='text-align: center; color: #00AA00;'>Perhitungan Indeks Kualitas Udara (IKU)</h1>", unsafe_allow_html=True)
     st.markdown("---")
