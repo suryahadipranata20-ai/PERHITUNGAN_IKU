@@ -14,8 +14,7 @@ def show_home():
     st.image(
         "polutan_industri.jpg",  # simpan gambar pabrik berasap dengan nama ini
         caption="Ilustrasi polutan yang dikeluarkan oleh industri",
-        use_container_width=True
-    ")
+        use_container_width=True")
     
     st.markdown("<h1 style='text-align: center; color: #00AA00;'>Perhitungan Indeks Kualitas Udara (IKU)</h1>", unsafe_allow_html=True)
     st.markdown("---")
