@@ -23,7 +23,7 @@ def show_home():
     # Daftar anggota 
     members = ["Ariq Dewantoro", "Endhyetto Nugraha Syahanaputra", "Kahlil Ibrahim Tirtana", "Surya Hadi Pranata", "TB.Affandhito Kurniawan N"]
     for i, member in enumerate(members, 1):
-        st.markdown(f"""<p style="text-align: center;color: green;font-size: 18px;font-weight: bold;">{i}. {member}</p>""",unsafe_allow_html=True)
+        st.markdown(f"""<p style="text-align: center;color: #00AA00;font-size: 25px;font-weight: bold;">{i}. {member}</p>""",unsafe_allow_html=True)
         
 
 # --- Fungsi Halaman Pengenalan (Option 1) ---
