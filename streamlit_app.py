@@ -18,7 +18,7 @@ def show_home():
     st.markdown("<h1 style='text-align: center; color: #2E86AB;'>Perhitungan Indeks Kualitas Udara (IKU)</h1>", unsafe_allow_html=True)
     st.markdown("---")
     
-    st.subheader("Disusun oleh:")
+    st.subheader("<h1 style='text-align: center; color: #00AA00;'>Disusun oleh:</h1>", unsafe_allow_html=True)
     
     # Daftar anggota 
     members = ["Ariq Dewantoro", "Endhyetto Nugraha Syahanaputra", "Kahlil Ibrahim Tirtana", "Surya Hadi Pranata", "TB.Affandhito Kurniawan N"]
