@@ -12,7 +12,8 @@ st.set_page_config(
 def show_home():
     # Menampilkan gambar udara ambien
     st.image("https://images.unsplash.com/photo-1569163139599-0f4517e36f51?q=80&w=1000&auto=format&fit=crop")
-    
+
+    # Menampilkan Judul 
     st.markdown("<h1 style='text-align: center; color: #00AA00;'>Perhitungan Indeks Kualitas Udara (IKU)</h1>", unsafe_allow_html=True)
     st.markdown("---")
     
