@@ -12,9 +12,9 @@ st.set_page_config(
 def show_home():
     # Menampilkan gambar udara ambien
     st.image(
-        "https://images.unsplash.com/photo-1559450363-8d3141d1cb47?auto=format&fit=crop&w=1000",
+        "https://plus.unsplash.com/premium_photo-1664302152993-297f3c53258e?auto=format&fit=crop&w=1000&q=80",
         caption="Ilustrasi: Asap Polutan dari Cerobong Pabrik",
-        width=800
+        use_container_width=True
     )
     
     st.markdown("<h1 style='text-align: center; color: #00AA00;'>Perhitungan Indeks Kualitas Udara (IKU)</h1>", unsafe_allow_html=True)
