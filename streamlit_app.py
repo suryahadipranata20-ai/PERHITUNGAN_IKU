@@ -12,8 +12,7 @@ st.set_page_config(
 def show_home():
     # Menampilkan gambar udara ambien
     st.image(
-        "https://unsplash.com/id/foto/pelabuhan-industri-dengan-polusi-cerobong-asap-TUJud0AWAPI",
-        use_container_width=True
+        "https://unsplash.com/id/foto/pelabuhan-industri-dengan-polusi-cerobong-asap-TUJud0AWAPI"
     )
     
     st.markdown("<h1 style='text-align: center; color: #2E86AB;'>Perhitungan Indeks Kualitas Udara (IKU)</h1>", unsafe_allow_html=True)
