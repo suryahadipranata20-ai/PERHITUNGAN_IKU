@@ -14,8 +14,12 @@ def show_home():
     st.image("https://images.unsplash.com/photo-1569163139599-0f4517e36f51?q=80&w=1000&auto=format&fit=crop")
 
     # Menampilkan Judul 
-    st.markdown("<h1 style='text-align: center; color: #00AA00;'>Perhitungan Indeks Kualitas Udara (IKU)</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #00AA00;'>Selamat Datang Di Kalkulator IKU</h1>", unsafe_allow_html=True)
     st.markdown("---")
+
+    st.markdown("""
+    Website ini bertujuan untuk membantu proses perhitungan Indeks Kualitas Udara (IKU) secara efektif dan efisien"""
+               )
     
     st.markdown("<h1 style='text-align: center; color: #00AA00;'>Disusun oleh:</h1>", unsafe_allow_html=True)
     
