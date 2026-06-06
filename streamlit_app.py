@@ -17,9 +17,7 @@ def show_home():
     st.markdown("<h1 style='text-align: center; color: #00AA00;'>Selamat Datang Di Kalkulator IKU</h1>", unsafe_allow_html=True)
     st.markdown("---")
 
-    st.markdown("""
-    Website ini bertujuan untuk membantu proses perhitungan Indeks Kualitas Udara (IKU) secara efektif dan efisien"""
-               )
+    st.markdown("<h3>Website ini bertujuan untuk membantu proses perhitungan Indeks Kualitas Udara (IKU) secara efektif dan efisien</h3>", unsafe_allow_html=True)
     
     st.markdown("<h1 style='text-align: center; color: #00AA00;'>Disusun oleh:</h1>", unsafe_allow_html=True)
     
